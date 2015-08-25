@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_nowplaying"
+        android:icon="@android:drawable/ic_media_play"
+        android:orderInCategory="2"
+        android:title="@string/action_nowplaying"
+        android:visible="true"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="1"
+        android:title="@string/action_share"
+        android:visible="true"
+        app:actionProviderClass=
+            "android.support.v7.widget.ShareActionProvider"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_lastSearch">LASTSEARCH</string>
+
+    <string name="pref_country_label">Your Country</string>
+    <string name="pref_country_key">COUNTRY</string>
+    <string name="pref_country_default">US</string>
+
+    <string name="pref_notification_label">Use Notifications</string>
+    <string name="pref_notification_key">NOTIFICATION</string>
+
+</resources>

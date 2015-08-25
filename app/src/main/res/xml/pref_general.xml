@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_country_default"
+        android:inputType="text"
+        android:key="@string/pref_country_key"
+        android:maxLength="2"
+        android:singleLine="true"
+        android:title="@string/pref_country_label"/>
+
+    <SwitchPreference
+        android:key="@string/pref_notification_key"
+        android:title="@string/pref_notification_label"
+        />
+
+</PreferenceScreen>
